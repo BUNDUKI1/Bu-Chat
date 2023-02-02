@@ -1,0 +1,104 @@
+p-3 {
+    padding: 1rem!important;
+}
+.text-bg-dark {
+    color: #fff!important;
+    background-color: RGBA(33,37,41,var(--bs-bg-opacity,1))!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+feuille de style de l’agent utilisateur
+header {
+    display: block;
+}
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: #05494e;
+    -webkit-text-size-adjust: 100%;
+   
+    -webkit-tap-highlight-color: #000000e0;
+}
+
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.my-4 {
+    margin-top: 1.5rem!important;
+    margin-bottom: 1.5rem!important;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.justify-content-between {
+    justify-content: space-between!important;
+}
+.flex-wrap {
+    flex-wrap: wrap!important;
+}
+.border-top {
+    border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+}
+.d-flex {
+    display: flex!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+footer {
+    display: block;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 4;
+}
+
+
+li{
+    display: block;
+}
+.btn{
+    --bs-btn-bg: #66404054;
+}
+
+footer{
+    background-color: black;
+    line-height: 4;
+}
+.text-end{
+    text-align: center!important;
+}
+.btn-warning {
+    --bs-btn-color: #0dcaf0;
+    --bs-btn-bg: #26262417;
+    --bs-btn-border-color: #efede6 0: ;
+    --bs-btn-hover-color: #141619 0: ;
+    --bs-btn-hover-bg: #ffff;
+    --bs-btn-hover-border-color: #fbfbf8 20: ;
+    --bs-btn-focus-shadow-rgb: 217,164,6;
+    --bs-btn-active-bg: #ffcd390f;
+    --bs-btn-active-bg: #ffcd392e cd39: ;
+    --bs-btn-active-border-color: #382e0e;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgb(0 0 0 / 86%) (5: );
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #393425;
+    --bs-btn-disabled-bg: #2f2d29;
+    --bs-btn-disabled-border-color: #0b1001;
+}
+h1{
+    text-align:left!important;
+}
